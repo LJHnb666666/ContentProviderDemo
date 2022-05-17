@@ -1,2 +1,5 @@
 # ContentProviderDemo
-ContentProvider实战demo
+### ContentProviderDemo的使用Demo，代码在master分支哦~
+
+个人博客：https://blog.csdn.net/afdafvdaa 
+项目的具体介绍：https://blog.csdn.net/afdafvdaa/article/details/124717835
