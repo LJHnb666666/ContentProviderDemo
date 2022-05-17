@@ -64,6 +64,7 @@ public class BookProvider extends ContentProvider {
         return false;
     }
 
+    //进行数据库的初始化操作
     public void initProviderData(){
         mDb = new DatabaseHelper(getContext()).getWritableDatabase();
         mDb.execSQL("delete from " + DatabaseHelper.BOOK_TABLE_NAME);

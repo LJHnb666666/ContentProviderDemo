@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         //创建监听
         myContentObserver = new MyContentObserver(this,handler);
         //为book表注册监听
-        //notifyForDescendants 为false 表示精确匹配，即只匹配该Uri 为true 表示可以同时匹配其派生的Uri
+        //notifyForDescendants 为false 表示精确匹配，即只匹配该Uri ，为true 表示可以同时匹配其派生的Uri
         getContentResolver().registerContentObserver(bookUri,false,myContentObserver.mContentObserver);
 
         //todo -----------------对book表的insert-----------------
